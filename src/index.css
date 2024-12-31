@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+
+  padding: 0;
+  margin: 0;
+}
+
+@layer components {
+  .button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gold;
+  }
+  .card {
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: 2px;
+    width: 15rem;
+    height: auto;
+  }
+}
